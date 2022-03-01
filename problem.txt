@@ -1,0 +1,6 @@
+Dans cet exercice ,vous devez analyser un relevé de température se rapproche le plus de zéro 
+
+Règles :
+Ecrivez un programme qui retourne la température la plus proche de 0 parmi les données d'entrée .
+Si deux nombres sont aussi proches de zéro ,alors l'entier positif sera considéré comme étant le 
+plus proche de zéro (par exemple,si les températures sont -5 et 5 ,alors retourner 5)

@@ -1,0 +1,28 @@
+Let temp = [ ] 
+Let temperature = [1,7,89] 
+
+Function mintemp(temperature){
+if(temperature.length>0) 
+{
+for(let i =0 ; temperature.length; i++){ 
+ if(temperature[i] >0){ temp.push(temperature[i]) 
+} 
+if(temperature[i] < 0){ 
+temp.push(Math.abs(temperature [i])) 
+} 
+} 
+
+Let findmin = temp.sort(function (a,b){ 
+ if (a>b) 
+return 1; 
+if(a>b) 
+return -1 ; 
+}) 
+return findmin[0] ; 
+} 
+
+Else 
+  return 0; 
+} 
+
+Console.log(mintemp(temperature))
